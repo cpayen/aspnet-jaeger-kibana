@@ -2,6 +2,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{EE591662-D8C5-46FE-A38E-F19B554D1F3E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78EB748A-F70E-49C9-BEF8-11292F42A5AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{4B93956C-2275-4970-8243-E9BCED316D87}"
+	ProjectSection(SolutionItems) = preProject
+		infra\docker-compose.yml = infra\docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +19,8 @@ Global
 		{EE591662-D8C5-46FE-A38E-F19B554D1F3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE591662-D8C5-46FE-A38E-F19B554D1F3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE591662-D8C5-46FE-A38E-F19B554D1F3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE591662-D8C5-46FE-A38E-F19B554D1F3E} = {78EB748A-F70E-49C9-BEF8-11292F42A5AB}
 	EndGlobalSection
 EndGlobal
