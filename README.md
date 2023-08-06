@@ -1,12 +1,13 @@
 # ASP.NET tracing & logging
 
-Playing with...
+Playing with OpenTelemetry / Jaeger, Serilog / ElasticSearch / Kibana in an ASP.NET web API.
 
-- OpenTelemetry / Jaeger
-- Serilog / ElasticSearch / Kibana
+```
+cd infra
+docker compose up
+```
 
-...in ASP.NET web API
+Then launch the `WebApi` application.
 
-Jaeger : http://localhost:16686
-
-Kibana : http://localhost:5601
+- Jaeger : http://localhost:16686
+- Kibana : http://localhost:5601
